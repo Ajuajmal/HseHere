@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/cab_peque_id" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:id="@+id/cab_peque_top" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+        <ImageView android:id="@+id/icohome" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3001" android:adjustViewBounds="true" android:maxWidth="140dp" />
+        <LinearLayout android:orientation="horizontal" android:id="@+id/vacio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/ico_rl_1" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001">
+                <ImageView android:id="@+id/ico_1" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" />
+                <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#fff" android:id="@+id/ico_tv_1" android:background="@drawable/badge_shape" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" android:fontFamily="sans-serif" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/ico_rl_2" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001">
+                <ImageView android:id="@+id/ico_2" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" />
+                <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#fff" android:id="@+id/ico_tv_2" android:background="@drawable/badge_shape" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" android:fontFamily="sans-serif" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/ico_rl_3" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001">
+                <ImageView android:id="@+id/ico_3" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" />
+                <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#fff" android:id="@+id/ico_tv_3" android:background="@drawable/badge_shape" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" android:fontFamily="sans-serif" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/ico_rl_4" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001">
+                <ImageView android:id="@+id/ico_4" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" />
+                <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#fff" android:id="@+id/ico_tv_4" android:background="@drawable/badge_shape" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentRight="true" android:fontFamily="sans-serif" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/cab_peque_bottom" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="horizontal" android:id="@+id/Secciones" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:id="@+id/hr_cab" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+    </LinearLayout>
+</LinearLayout>

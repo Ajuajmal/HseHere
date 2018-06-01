@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/ll_frase" android:padding="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@+id/v_foto" android:background="#ff000000" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x501" android:layout_height="UNKNOWN_DATA_0x3001" />
+        <ImageView android:id="@+id/iv_avatar_f" android:background="#ff000000" android:padding="1dp" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:adjustViewBounds="true" />
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pb_foto" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" />
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pb_foto_inv" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" style="@style/pb_inverse" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp"
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@+id/tv_nombre_f" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textStyle="italic" android:id="@+id/tv_fcrea_f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" />
+        </LinearLayout>
+        <TextView android:id="@+id/tv_frase_f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="28px" />
+        <FrameLayout android:orientation="horizontal" android:id="@+id/fl_f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/iv_foto_f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+            <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pb_foto_f" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" />
+            <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pb_foto_f_inv" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" style="@style/pb_inverse" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

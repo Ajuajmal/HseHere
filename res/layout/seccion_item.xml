@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:id="@+id/sep_cab" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x101" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginBottom="5dp" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@+id/tv_seccion" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:height="20dp" />
+        <ImageView android:id="@+id/iv_menu_mas" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:adjustViewBounds="true" android:maxHeight="20dp" />
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/iv_secc_sel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x601" android:adjustViewBounds="true" />
+        <View android:id="@+id/iv_secc_sel_2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x601" />
+    </LinearLayout>
+</LinearLayout>

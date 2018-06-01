@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/iv_usugrid" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7d01" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_usugrid" android:background="#66000000" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16dp" android:textColor="#ffffffff" android:id="@+id/tv_usugrid" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="12dp" android:textColor="#fffbfbfb" android:id="@+id/tv_usugrid2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ll_conectado" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="UNKNOWN_DATA_0xa01" android:layout_height="UNKNOWN_DATA_0xa01" android:layout_margin="5dp" android:src="@drawable/green_indicator" android:adjustViewBounds="true" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ll_favorito_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <ImageView android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_margin="2dp" android:src="@drawable/favorito_p" android:adjustViewBounds="true" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ll_favorito_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageView android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_margin="2dp" android:src="@drawable/favorito_p" android:adjustViewBounds="true" />
+    </LinearLayout>
+    <ProgressBar android:id="@+id/pb_foto" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@+id/pb_foto_inv" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_centerInParent="true" style="@style/pb_inverse" />
+</RelativeLayout>

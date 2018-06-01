@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/drawer_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_princ" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <WebView android:id="@+id/webview" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <ImageView android:id="@+id/iv_cerrar" android:background="#33000000" android:layout_width="UNKNOWN_DATA_0x2301" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_margin="10dp" android:src="@drawable/close" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <LinearLayout android:orientation="vertical" android:id="@+id/ll_descr" android:background="#66000000" android:padding="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignBottom="@+id/webview">
+                <TextView android:textSize="16sp" android:textColor="#fffbfbfb" android:id="@+id/tv_descr" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/ll_ad" android:layout_width="wrap_content" android:layout_height="wrap_content" /> />
+    <ListView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/left_drawer" android:layout_width="UNKNOWN_DATA_0xf001" android:layout_height="match_parent" android:choiceMode="singleChoice" />
+</android.support.v4.widget.DrawerLayout>

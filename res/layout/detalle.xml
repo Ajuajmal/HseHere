@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/ll_det" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/rl_web" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <WebView android:id="@+id/ll_det_web" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ProgressBar android:id="@+id/pb_url" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/pb_large_inverse" />
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/ll_det_cont" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <ScrollView android:id="@+id/sv_det" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <TextView android:id="@+id/tv_det_cat" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <TextView android:id="@+id/tv_det_ref" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <TextView android:textSize="20dp" android:textStyle="bold" android:id="@+id/tv_det_tit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="200dp" android:layout_weight="1.0">
+                        <TextView android:textSize="16dp" android:id="@+id/tv_det_antig" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                        <TextView android:id="@+id/tv_det_descr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                        <TextView android:textSize="16sp" android:textStyle="bold" android:id="@+id/tv_det_precio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="" android:drawableLeft="@drawable/precio" />
+                        <TextView android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/btn_det_masinfo" android:background="#666666" android:padding="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/masinfo" />
+                        <TextView android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/btn_det_comprar" android:background="#666666" android:padding="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/comprar" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/ll_det_imgs" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0xe101" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_weight="1.0" /> /> />
+        </ScrollView>
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pb_det" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/pb_large" />
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/pb_det_inverse" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="pb_large_inverse" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/ll_ad" android:layout_width="wrap_content" android:layout_height="wrap_content" /> />

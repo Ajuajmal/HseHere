@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppInvite.Preview.Base" parent="@android:style/Theme.Material.Light.DialogWhenLarge.NoActionBar" />
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="pb_large" />
+    <style name="pb_large_inverse" />
+    <style name="pb_inverse" />
+    <style name="holonolight" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:typeface">monospace</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="m1">res/menu/m1.xml</menu>
+    <menu name="m1_privado">res/menu/m1_privado.xml</menu>
+    <menu name="m2">res/menu/m2.xml</menu>
+</resources>

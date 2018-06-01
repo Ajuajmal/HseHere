@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/drawer_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_princ" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="100.0">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/iv_fondo" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <ProgressBar android:id="@+id/pb" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_margin="10dp" />
+            <ProgressBar android:id="@+id/pb_inv" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_margin="10dp" style="@style/pb_inverse" />
+            <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/ll_grid" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <hse.here2.MyGridView android:id="@+id/grid" android:layoutAnimation="@anim/layout_grid_fade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="0x106000d" android:stretchMode="columnWidth" />
+                    <LinearLayout android:orientation="vertical" android:id="@+id/ll_nat" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp" android:layout_marginBottom="20dp"
+                        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_appsreco" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+                            <TextView android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/tv_appsreco" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/appsreco" android:textAllCaps="true" />
+                            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/appnext_logo" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0xe01" android:layout_marginLeft="10dp" android:src="@drawable/info_b" android:adjustViewBounds="true" />
+                        </LinearLayout>
+                        <View android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/ll_ad" android:layout_width="wrap_content" android:layout_height="wrap_content" /> />
+    <ListView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/left_drawer" android:layout_width="UNKNOWN_DATA_0xf001" android:layout_height="match_parent" android:choiceMode="singleChoice" />
+</android.support.v4.widget.DrawerLayout>

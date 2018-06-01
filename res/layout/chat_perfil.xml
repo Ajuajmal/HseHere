@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/drawer_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_princ" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="100.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textColor="#ffffff" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/iv_fb" android:background="@drawable/bg_fb" android:padding="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/fb_login" android:drawableLeft="@drawable/fb_f" android:drawablePadding="10dp" android:textAllCaps="false" />
+                <View android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/v_fb" android:background="#333b5998" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x401" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" />
+                <TableLayout android:id="@+id/tableLayout1" android:padding="10px" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textStyle="bold" android:id="@+id/nombre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/petic_nombre" />
+                            <TextView android:id="@+id/nombre_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(Nick)" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <EditText android:id="@+id/c_nombre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:width="300dp" android:maxLength="50" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone|time" android:textCursorDrawable="0x0" />
+                            <TextView android:id="@+id/c_nombre_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:id="@+id/tr_descr" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textStyle="bold" android:id="@+id/descr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/petic_descr" />
+                            <TextView android:id="@+id/descr_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/opcional" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <EditText android:id="@+id/c_descr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:width="300dp" android:maxLength="255" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" android:textCursorDrawable="0x0" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:id="@+id/tr_fnac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textStyle="bold" android:id="@+id/fnac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/petic_fnac" />
+                            <TextView android:id="@+id/fnac_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/opcional" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+                            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <Spinner android:id="@+id/c_fnac_d" android:layout_width="UNKNOWN_DATA_0x0" android:layout_height="wrap_content" android:prompt="@string/selecciona" android:layout_weight="1.0" />
+                                <Spinner android:id="@+id/c_fnac_m" android:layout_width="UNKNOWN_DATA_0x0" android:layout_height="wrap_content" android:prompt="@string/selecciona" android:layout_weight="1.0" />
+                                <Spinner android:id="@+id/c_fnac_a" android:layout_width="UNKNOWN_DATA_0x0" android:layout_height="wrap_content" android:prompt="@string/selecciona" android:layout_weight="1.0" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:id="@+id/tr_sexo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textStyle="bold" android:id="@+id/sexo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/petic_sexo" />
+                            <TextView android:id="@+id/sexo_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/opcional" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <Spinner android:id="@+id/c_sexo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:prompt="@string/selecciona" />
+                            <TextView android:id="@+id/c_sexo_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:id="@+id/tr_foto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginBottom="15dp">
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textStyle="bold" android:id="@+id/foto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/foto" />
+                            <TextView android:id="@+id/foto_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/opcional" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            <LinearLayout android:orientation="vertical" android:padding="2px" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:id="@+id/foto1" android:padding="3dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="200px" android:maxHeight="200px" />
+                                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/elim1" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3200" android:layout_height="wrap_content" android:src="@drawable/cerrar" />
+                            </LinearLayout>
+                            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btnfotos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tomar_foto" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:id="@+id/tr_coments" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/tv_coments" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <Spinner android:id="@+id/c_coments" android:layout_width="wrap_content" android:layout_height="wrap_content" android:prompt="@string/selecciona" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:id="@+id/tr_privados" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/tv_permitirprivados" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permitirprivados" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <Spinner android:id="@+id/c_privados" android:layout_width="wrap_content" android:layout_height="wrap_content" android:prompt="@string/selecciona" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/tv_avisos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/avisos" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <Spinner android:id="@+id/c_avisos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:prompt="@string/selecciona" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="10dp">
+                    <TextView android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/btnprofile" android:background="#666666" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="5dp" android:text="@string/imagenes" />
+                    <View android:id="@+id/btnprofile_sep" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x100" />
+                    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/btnenv" android:background="#666666" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="10dp" android:text="@string/guardar" />
+                        <TextView android:id="@+id/btnprivacidad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7dp" android:text="@string/privacidad" />
+                        <TextView android:id="@+id/btnbaja" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/darmedebaja" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/ll_ad" android:layout_width="wrap_content" android:layout_height="wrap_content" /> />
+    <ListView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/left_drawer" android:layout_width="UNKNOWN_DATA_0xf001" android:layout_height="match_parent" android:choiceMode="singleChoice" />
+</android.support.v4.widget.DrawerLayout>

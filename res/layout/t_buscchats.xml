@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/drawer_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_princ" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:id="@+id/ll_cabe" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/iv_cabe" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1e01" android:src="@drawable/ic_atras_light" android:adjustViewBounds="true" />
+            <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/tv_cabe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginRight="10dp" android:layout_marginBottom="20dp">
+                    <TextView android:textColor="#de000000" android:id="@+id/tv_cats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/categorias" android:layout_centerVertical="true" />
+                    <TextView android:textStyle="bold" android:id="@+id/tv_fav" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/favoritos" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <GridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/gridview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="15dp" android:horizontalSpacing="10dp" android:verticalSpacing="10dp" android:stretchMode="columnWidth" android:columnWidth="139dp" android:numColumns="auto_fit" />
+                <RelativeLayout android:orientation="horizontal" android:id="@+id/rl_chats_fila1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp">
+                    <TextView android:textColor="#de000000" android:id="@+id/tv_nuevos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chats_nuevos" android:layout_centerVertical="true" />
+                    <TextView android:id="@+id/tv_mas_nuevos" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mas" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/ll_chats_fila1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp">
+                    <android.support.v7.widget.CardView card_view:id="@+id/card_view_1" card_view:layout_width="UNKNOWN_DATA_0x7801" card_view:layout_height="UNKNOWN_DATA_0xa001" card_view:layout_margin="5dp" card_view:cardBackgroundColor="#fff" card_view:cardCornerRadius="4dp" cardUseCompatPadding="true" contentPadding="0dp">
+                        <RelativeLayout card_view:padding="5dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                            <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                                <ImageView card_view:id="@+id/iv_chat_1" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x5a01" card_view:scaleType="centerCrop" card_view:adjustViewBounds="true" />
+                                <TextView card_view:textStyle="bold" card_view:id="@+id/tv_chat_1" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="" card_view:maxLines="2" />
+                            </LinearLayout>
+                            <TextView card_view:id="@+id/pie_chat_1" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="" card_view:layout_alignParentBottom="true" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView card_view:id="@+id/card_view_2" card_view:layout_width="UNKNOWN_DATA_0x7801" card_view:layout_height="UNKNOWN_DATA_0xa001" card_view:layout_margin="5dp" card_view:cardBackgroundColor="#fff" card_view:cardCornerRadius="4dp" cardUseCompatPadding="true" contentPadding="0dp">
+                        <RelativeLayout card_view:padding="5dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                            <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                                <ImageView card_view:id="@+id/iv_chat_2" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x5a01" card_view:scaleType="centerCrop" card_view:adjustViewBounds="true" />
+                                <TextView card_view:textStyle="bold" card_view:id="@+id/tv_chat_2" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="" card_view:maxLines="2" />
+                            </LinearLayout>
+                            <TextView card_view:id="@+id/pie_chat_2" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="" card_view:layout_alignParentBottom="true" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView card_view:id="@+id/card_view_3" card_view:layout_width="UNKNOWN_DATA_0x7801" card_view:layout_height="UNKNOWN_DATA_0xa001" card_view:layout_margin="5dp" card_view:cardBackgroundColor="#fff" card_view:cardCornerRadius="4dp" cardUseCompatPadding="true" contentPadding="0dp">
+                        <RelativeLayout card_view:padding="5dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                            <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                                <ImageView card_view:id="@+id/iv_chat_3" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x5a01" card_view:scaleType="centerCrop" card_view:adjustViewBounds="true" />
+                                <TextView card_view:textStyle="bold" card_view:id="@+id/tv_chat_3" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="" card_view:maxLines="2" />
+                            </LinearLayout>
+                            <TextView card_view:id="@+id/pie_chat_3" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="" card_view:layout_alignParentBottom="true" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <RelativeLayout card_view:orientation="horizontal" card_view:id="@+id/rl_chats_fila2" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginLeft="10dp" card_view:layout_marginRight="10dp" card_view:layout_marginBottom="10dp">
+                    <TextView card_view:textColor="#de000000" card_view:id="@+id/tv_populares" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="@string/chats_maspopulares" card_view:layout_centerVertical="true" />
+                    <TextView card_view:id="@+id/tv_mas_pop" card_view:padding="10dp" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="@string/mas" card_view:layout_alignParentRight="true" card_view:layout_centerVertical="true" />
+                </RelativeLayout>
+                <LinearLayout card_view:orientation="horizontal" card_view:id="@+id/ll_chats_fila2" card_view:layout_width="match_parent" card_view:layout_height="wrap_content" card_view:layout_marginLeft="10dp" card_view:layout_marginRight="10dp" card_view:layout_marginBottom="10dp">
+                    <android.support.v7.widget.CardView card_view:id="@+id/card_view_4" card_view:layout_width="UNKNOWN_DATA_0x7801" card_view:layout_height="UNKNOWN_DATA_0xa001" card_view:layout_margin="5dp" card_view:cardBackgroundColor="#fff" card_view:cardCornerRadius="4dp" cardUseCompatPadding="true" contentPadding="0dp">
+                        <RelativeLayout card_view:padding="5dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                            <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                                <ImageView card_view:id="@+id/iv_chat_4" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x5a01" card_view:scaleType="centerCrop" card_view:adjustViewBounds="true" />
+                                <TextView card_view:textStyle="bold" card_view:id="@+id/tv_chat_4" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="" card_view:maxLines="2" />
+                            </LinearLayout>
+                            <TextView card_view:id="@+id/pie_chat_4" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="" card_view:layout_alignParentBottom="true" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView card_view:id="@+id/card_view_5" card_view:layout_width="UNKNOWN_DATA_0x7801" card_view:layout_height="UNKNOWN_DATA_0xa001" card_view:layout_margin="5dp" card_view:cardBackgroundColor="#fff" card_view:cardCornerRadius="4dp" cardUseCompatPadding="true" contentPadding="0dp">
+                        <RelativeLayout card_view:padding="5dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                            <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                                <ImageView card_view:id="@+id/iv_chat_5" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x5a01" card_view:scaleType="centerCrop" card_view:adjustViewBounds="true" />
+                                <TextView card_view:textStyle="bold" card_view:id="@+id/tv_chat_5" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="" card_view:maxLines="2" />
+                            </LinearLayout>
+                            <TextView card_view:id="@+id/pie_chat_5" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="" card_view:layout_alignParentBottom="true" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView card_view:id="@+id/card_view_6" card_view:layout_width="UNKNOWN_DATA_0x7801" card_view:layout_height="UNKNOWN_DATA_0xa001" card_view:layout_margin="5dp" card_view:cardBackgroundColor="#fff" card_view:cardCornerRadius="4dp" cardUseCompatPadding="true" contentPadding="0dp">
+                        <RelativeLayout card_view:padding="5dp" card_view:layout_width="match_parent" card_view:layout_height="match_parent">
+                            <LinearLayout card_view:orientation="vertical" card_view:layout_width="match_parent" card_view:layout_height="wrap_content">
+                                <ImageView card_view:id="@+id/iv_chat_6" card_view:layout_width="match_parent" card_view:layout_height="UNKNOWN_DATA_0x5a01" card_view:scaleType="centerCrop" card_view:adjustViewBounds="true" />
+                                <TextView card_view:textStyle="bold" card_view:id="@+id/tv_chat_6" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="" card_view:maxLines="2" />
+                            </LinearLayout>
+                            <TextView card_view:id="@+id/pie_chat_6" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" card_view:text="" card_view:layout_alignParentBottom="true" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout card_view:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" card_view:orientation="vertical" card_view:id="@+id/ll_ad" card_view:layout_width="wrap_content" card_view:layout_height="wrap_content" /> />
+    <ListView card_view:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" card_view:id="@+id/left_drawer" card_view:layout_width="UNKNOWN_DATA_0xf001" card_view:layout_height="match_parent" card_view:choiceMode="singleChoice" />
+</android.support.v4.widget.DrawerLayout>

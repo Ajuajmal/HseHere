@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sexo_a">
+        <item>اختيار..</item>
+        <item>رجل</item>
+        <item>امرأه</item>
+    </array>
+    <array name="idsexo_a">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="coments_a">
+        <item>جميع التعليقات</item>
+        <item>لا تسمح</item>
+    </array>
+    <array name="idcoments_a">
+        <item>1</item>
+        <item>0</item>
+    </array>
+    <array name="privado_opcs">
+        <item>فتح الدردشة الخاصة</item>
+        <item>ليس الآن</item>
+        <item>حظر هذا المستخدم</item>
+        <item>اريد ان اغلق الخاص</item>
+    </array>
+    <array name="privados_a">
+        <item>السماح بالخاص</item>
+        <item>لا تسمح</item>
+    </array>
+    <array name="idprivados_a">
+        <item>1</item>
+        <item>0</item>
+    </array>
+    <array name="avisos_a">
+        <item>ايقونة وصوت</item>
+        <item>ايقونة فقط</item>
+        <item>لا شيئ</item>
+    </array>
+    <array name="idavisos_a">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+</resources>

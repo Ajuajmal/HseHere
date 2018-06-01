@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="7.2" android:installLocation="auto" package="hse.here2" platformBuildVersionCode="22" platformBuildVersionName="5.1-1756733">
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="22" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <permission android:name="hse.here2.permission.C2D_MESSAGE" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="hse.here2.permission.C2D_MESSAGE" />
+    <application android:theme="@style/AppTheme" android:label="Hse Here" android:icon="@drawable/ic_launcher" android:name="hse.here2.config">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <uses-library android:name="com.google.android.maps" android:required="false" />
+        <activity android:label="Hse Here" android:name=".preinicio" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="www.androidcreator.com" android:pathPrefix="/open299914/" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:label="Hse Here" android:name=".t_url" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".t_html" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".t_video" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".t_radio" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".t_buscchats" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".t_buscchats_lista" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".t_menugrid" />
+        <activity android:label="Hse Here" android:name=".t_submenu" />
+        <activity android:label="Hse Here" android:name=".t_rss" />
+        <activity android:label="Hse Here" android:name=".t_rss_fr" />
+        <activity android:label="Hse Here" android:name=".t_rssdetalle" />
+        <activity android:label="Hse Here" android:name=".t_oficinas" />
+        <activity android:label="Hse Here" android:name=".t_chat_contra" />
+        <activity android:label="Hse Here" android:name=".t_chat" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:label="Hse Here" android:name=".preperfil" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".chat_perfil" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".guardarprimeravez" />
+        <activity android:label="Hse Here" android:name=".eliminarperfil" />
+        <activity android:label="Hse Here" android:name=".chat" />
+        <activity android:label="Hse Here" android:name=".contactar" />
+        <activity android:label="Hse Here" android:name=".t_buscador_form" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".cats" />
+        <activity android:label="Hse Here" android:name=".t_buscador" />
+        <activity android:label="Hse Here" android:name=".t_detalle" />
+        <activity android:label="Hse Here" android:name=".t_menu" />
+        <activity android:label="Hse Here" android:name=".t_mapa_web" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".t_and" />
+        <activity android:label="Hse Here" android:name=".fb" />
+        <activity android:label="Hse Here" android:name=".fb_result" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="appac" android:host="fb_299914" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Hse Here" android:name=".finalizar" />
+        <activity android:label="Hse Here" android:name=".notifs" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".notifs_cats" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".privados" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".profile" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".fotogal" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".t_buscusus" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".t_gal" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Hse Here" android:name=".t_gal_foto" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <service android:name=".s_cargar_icos" />
+        <service android:name=".s_cargar_sliderheader" />
+        <service android:name=".s_guardarperfil" />
+        <service android:name=".s_obtenerpos" />
+        <service android:name=".s_guardarpos" />
+        <service android:name=".s_mediaplayer" />
+        <service android:name=".RegistrationIntentService" />
+        <provider android:name=".bd_provider" android:multiprocess="true" android:authorities="hse.here2.bd_provider" />
+        <receiver android:name="alarma" />
+        <receiver android:name="alarma_rss" />
+        <receiver android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="hse.here2" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".MyGcmListenerService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyInstanceIDListenerService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+ 
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1" />
+    </application>
+</manifest>

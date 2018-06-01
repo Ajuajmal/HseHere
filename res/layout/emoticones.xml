@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:background="#dddddd" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/btn_smile1" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile1" />
+        <ImageButton android:id="@+id/btn_smile2" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile2" />
+        <ImageButton android:id="@+id/btn_smile3" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile3" />
+        <ImageButton android:id="@+id/btn_smile4" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile4" />
+        <ImageButton android:id="@+id/btn_smile5" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile5" />
+    </LinearLayout>
+    <LinearLayout android:background="#dddddd" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/btn_smile6" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile6" />
+        <ImageButton android:id="@+id/btn_smile7" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile7" />
+        <ImageButton android:id="@+id/btn_smile8" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile8" />
+        <ImageButton android:id="@+id/btn_smile9" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile9" />
+        <ImageButton android:id="@+id/btn_smile10" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile10" />
+    </LinearLayout>
+    <LinearLayout android:background="#dddddd" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/btn_smile11" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile11" />
+        <ImageButton android:id="@+id/btn_smile12" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile12" />
+        <ImageButton android:id="@+id/btn_smile13" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile13" />
+        <ImageButton android:id="@+id/btn_smile14" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile14" />
+        <ImageButton android:id="@+id/btn_smile15" android:background="0x0" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smile15" />
+    </LinearLayout>
+</LinearLayout>

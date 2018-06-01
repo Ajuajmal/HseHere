@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.CardView">
+        <item>@dimen/cardview_default_radius</item>
+        <item>@dimen/cardview_default_elevation</item>
+        <item>@dimen/cardview_default_elevation</item>
+        <item>false</item>
+        <item>true</item>
+    </style>
+    <style name="CardView">
+    </style>
+    <style name="CardView.Light">
+        <item>@color/cardview_light_background</item>
+    </style>
+    <style name="CardView.Dark">
+        <item>@color/cardview_dark_background</item>
+    </style>
+    <style name="Theme.IAPTheme">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.AppInvite.Preview.Base">
+    </style>
+    <style name="Theme.AppInvite.Preview.Base">
+    </style>
+    <style name="Theme.AppInvite.Preview.Base">
+    </style>
+    <style name="Theme.AppInvite.Preview">
+        <item>?unknown_ref: 106000b</item>
+        <item>?unknown_ref: 106000b</item>
+        <item>true</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item>14sp</item>
+        <item>0</item>
+        <item>@color/wallet_secondary_text_holo_dark</item>
+        <item>@color/wallet_highlighted_text_holo_dark</item>
+        <item>@color/wallet_hint_foreground_holo_dark</item>
+        <item>@color/wallet_holo_blue_light</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance">
+        <item>1</item>
+    </style>
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item>18sp</item>
+        <item>0</item>
+        <item>@color/wallet_primary_text_holo_light</item>
+        <item>@color/wallet_highlighted_text_holo_light</item>
+        <item>@color/wallet_hint_foreground_holo_light</item>
+        <item>@color/wallet_link_text_light</item>
+    </style>
+    <style name="WalletFragmentDefaultStyle">
+        <item>48dp</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>4</item>
+        <item>@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item>@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item>@color/wallet_bright_foreground_holo_light</item>
+        <item>@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item>?unknown_ref: 1080004</item>
+        <item>@color/wallet_bright_foreground_holo_dark</item>
+        <item>3</item>
+    </style>
+    <style name="AppTheme">
+        <item>3</item>
+    </style>
+    <style name="AppTheme">
+        <item>3</item>
+    </style>
+    <style name="AppTheme">
+        <item>3</item>
+    </style>
+    <style name="pb_large">
+    </style>
+    <style name="pb_large">
+    </style>
+    <style name="pb_large_inverse">
+    </style>
+    <style name="pb_large_inverse">
+    </style>
+    <style name="pb_inverse">
+    </style>
+    <style name="pb_inverse">
+    </style>
+    <style name="holonolight">
+        <item>3</item>
+    </style>
+    <style name="holonolight">
+        <item>3</item>
+    </style>
+</resources>

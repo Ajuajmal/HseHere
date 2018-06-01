@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/ll_frase" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textStyle="bold" android:id="@+id/tv_sep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="30dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" />
+    <View android:id="@+id/v_sep" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/cv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0dp" android:cardBackgroundColor="#fff" android:cardCornerRadius="4dp" cardUseCompatPadding="true" contentPadding="0dp">
+    <LinearLayout android:orientation="vertical" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/iv_menugrid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0dp" android:adjustViewBounds="true" />
+        <TextView android:id="@+id/tv_menugrid" android:background="@drawable/fondo_rounded" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0dp" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

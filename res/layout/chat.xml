@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/drawer_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_princ" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+            <ImageView android:id="@+id/iv_chat" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" android:src="@drawable/chat" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:id="@+id/tv_tit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tit_chat" />
+                <View android:id="@+id/v_sep" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView android:id="@+id/sv_chat" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:orientation="vertical" android:id="@+id/llchat" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" />
+                <LinearLayout android:orientation="horizontal" android:background="#dddddd" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <EditText android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/c_mensaje" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:width="700dp" android:maxLength="150" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" android:textCursorDrawable="0x0" />
+                        <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/pb_chat_env" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_marginLeft="10dp" style="@style/pb_inverse" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@+id/iv_btn_fondo_n" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_fondo_p_n" />
+                        <ImageView android:id="@+id/iv_btn_fondo_b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_fondo_p_b" />
+                        <ImageView android:id="@+id/iv_env" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/ll_ad" android:layout_width="wrap_content" android:layout_height="wrap_content" /> />
+    <ListView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/left_drawer" android:layout_width="UNKNOWN_DATA_0xf001" android:layout_height="match_parent" android:choiceMode="singleChoice" />
+</android.support.v4.widget.DrawerLayout>

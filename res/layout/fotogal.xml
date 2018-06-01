@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/drawer_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_princ" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <WebView android:id="@+id/webview" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:id="@+id/iv_cerrar" android:background="#33000000" android:layout_width="UNKNOWN_DATA_0x2301" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_margin="10dp" android:src="@drawable/close" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ll_likes" android:background="#33000000" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_below="@+id/iv_cerrar">
+                <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/iv_like" android:layout_width="UNKNOWN_DATA_0x2301" android:layout_height="UNKNOWN_DATA_0x2301" android:src="@drawable/like" />
+                <TextView android:textColor="#ffffffff" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/tv_likes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" />
+            </LinearLayout>
+            <ImageView android:id="@+id/iv_reportar" android:background="#66000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:src="@drawable/spam" android:layout_below="@+id/ll_likes" />
+            <ImageView android:id="@+id/iv_elim" android:background="#33000000" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2301" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_margin="10dp" android:src="@drawable/eliminar" android:layout_below="@+id/iv_reportar" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/ll_ad" android:layout_width="wrap_content" android:layout_height="wrap_content" /> />
+    <ListView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/left_drawer" android:layout_width="UNKNOWN_DATA_0xf001" android:layout_height="match_parent" android:choiceMode="singleChoice" />
+</android.support.v4.widget.DrawerLayout>

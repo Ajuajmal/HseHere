@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/layout_root" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="17sp" android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <EditText android:textSize="17sp" android:id="@+id/et_contra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="100dp" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" android:textCursorDrawable="0x0" />
+    <TextView android:textSize="17sp" android:textColor="#ffff0000" android:id="@+id/message_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contra_ko" />
+    <CheckBox android:textStyle="bold|italic" android:id="@+id/skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/nomostrarmas" />
+</LinearLayout>
