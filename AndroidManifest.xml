@@ -97,7 +97,9 @@
                 <action android:name="com.google.android.gms.iid.InstanceID" />
             </intent-filter>
         </service>
- 
+        <service android:name="com.appnext.core.AdsService" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.appnext.ads.interstitial.InterstitialActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.appnext.ads.fullscreen.FullscreenActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" />
         <meta-data android:name="com.android.vending.derived.apk.id" android:value="1" />
     </application>
 </manifest>
